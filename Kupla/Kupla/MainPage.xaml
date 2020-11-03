@@ -2,13 +2,62 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Kupla"
-             x:Class="Kupla.MainPage">
+             x:Class="Kupla.MainPage"
+             BackgroundColor="#69a9d1">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Label Text="Kupla" 
+            HorizontalOptions="Center"
+            Margin="0,30"
+            TextColor="White"
+            FontSize="78"/>
+
+        <StackLayout>
+            <Label Text="Master password" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" 
+               TextColor="White"
+               FontSize="28"/>
+            <Frame BackgroundColor="White"
+                   CornerRadius="16"
+                   Margin="20,5,20,10"
+                   HeightRequest="25">
+                <local:CustomEntry x:Name="MasterPasswordEntry" MaxLength="100"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout>
+            <Label Text="Service" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" 
+               TextColor="White"
+               FontSize="28"/>
+            <Frame BackgroundColor="White"
+                   CornerRadius="16"
+                   Margin="20,5,20,40"
+                   HeightRequest="25">
+                <local:CustomEntry x:Name="ServiceEntry" MaxLength="100"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout>
+            <Label Text="Secret password" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" 
+               TextColor="White"
+               FontSize="28"/>
+            <Frame BackgroundColor="White"
+                   CornerRadius="16"
+                   Margin="20,5,20,10"
+                   HeightRequest="25">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="CopySecretPassword_Tapped" NumberOfTapsRequired="1"/>
+                </Frame.GestureRecognizers>
+
+                <Label Text="SH1o4X0Ix!cVuW9o"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"/>
+            </Frame>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>

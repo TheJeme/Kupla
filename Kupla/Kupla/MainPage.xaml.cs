@@ -13,5 +13,10 @@ namespace Kupla
         {
             InitializeComponent();
         }
+
+        private void CopySecretPassword_Tapped(object sender, EventArgs e)
+        {
+
+        }
     }
 }
