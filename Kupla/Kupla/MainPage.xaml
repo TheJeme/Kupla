@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Kupla"
              x:Class="Kupla.MainPage"
-             BackgroundColor="#69a9d1">
+             BackgroundColor="#699acc">
 
     <StackLayout>
         <Label Text="Kupla" 
@@ -13,7 +13,7 @@
             FontSize="78"/>
 
         <StackLayout>
-            <Label Text="Master password" 
+            <Label Text="Master Password" 
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" 
                TextColor="White"
@@ -22,7 +22,7 @@
                    CornerRadius="16"
                    Margin="20,5,20,10"
                    HeightRequest="25">
-                <local:CustomEntry x:Name="MasterPasswordEntry" MaxLength="100"/>
+                <local:CustomEntry x:Name="MasterPasswordEntry" IsPassword="True" MaxLength="100" TextChanged="MasterPasswordEntry_TextChanged"/>
             </Frame>
         </StackLayout>
         <StackLayout>
@@ -35,16 +35,16 @@
                    CornerRadius="16"
                    Margin="20,5,20,40"
                    HeightRequest="25">
-                <local:CustomEntry x:Name="ServiceEntry" MaxLength="100"/>
+                <local:CustomEntry x:Name="ServiceEntry" MaxLength="100" TextChanged="ServiceEntry_TextChanged"/>
             </Frame>
         </StackLayout>
         <StackLayout>
-            <Label Text="Secret password" 
+            <Label Text="Secret Password" 
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" 
                TextColor="White"
                FontSize="28"/>
-            <Frame BackgroundColor="White"
+            <Frame BackgroundColor="LightGray"
                    CornerRadius="16"
                    Margin="20,5,20,10"
                    HeightRequest="25">
@@ -53,9 +53,10 @@
                     <TapGestureRecognizer Tapped="CopySecretPassword_Tapped" NumberOfTapsRequired="1"/>
                 </Frame.GestureRecognizers>
 
-                <Label Text="SH1o4X0Ix!cVuW9o"
+                <Label x:Name="SecretPasswordLabel"
                        HorizontalOptions="Center"
-                       VerticalOptions="CenterAndExpand"/>
+                       VerticalOptions="CenterAndExpand"
+                       LineBreakMode="NoWrap"/>
             </Frame>
         </StackLayout>
     </StackLayout>
