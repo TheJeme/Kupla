@@ -16,9 +16,9 @@ namespace Kupla
             InitializeComponent();
         }
 
-        private void CopySecretPassword_Tapped(object sender, EventArgs e)
+        private void SecretPasswordButton_Clicked(object sender, EventArgs e)
         {
-            CrossClipboard.Current.SetText(SecretPasswordLabel.Text);            
+            CrossClipboard.Current.SetText(SecretPasswordButton.Text);
         }
 
         private void MasterPasswordEntry_TextChanged(object sender, TextChangedEventArgs e)
@@ -35,11 +35,11 @@ namespace Kupla
         {
             if (MasterPasswordEntry.Text != null && ServiceEntry.Text != null)
             {
-                SecretPasswordLabel.Text = ComputeMD5Hash(MasterPasswordEntry.Text + ServiceEntry.Text.ToUpper() + "kupla");
+                SecretPasswordButton.Text = ComputeMD5Hash(MasterPasswordEntry.Text + ServiceEntry.Text.ToUpper() + "kupla");
             }
             else
             {
-                SecretPasswordLabel.Text = "";
+                SecretPasswordButton.Text = "";
             }
         }
 
