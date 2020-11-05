@@ -18,55 +18,83 @@
         <StackLayout>
             <Label Text="Kupla" 
                 HorizontalOptions="Center"
-                Margin="0,10"
+                Margin="0,25,0,10"
                 TextColor="White"
-                FontSize="78"/>
+                FontSize="78"
+                FontFamily="{StaticResource FranxurterTotallyMedium}"/>
             <BoxView VerticalOptions="Center"
                    HorizontalOptions="Center"
-                   HeightRequest="3"
-                   WidthRequest="70"  
+                   HeightRequest="4"
+                   WidthRequest="75"  
                    Color="White"
                    Margin="0,0,0,25"/>
-            <StackLayout>
-                <Label Text="Master Password" 
-                   HorizontalOptions="Center"
-                   VerticalOptions="CenterAndExpand" 
-                   TextColor="White"
-                   FontSize="28"/>
-                <Frame Background="White"
+            <Frame BackgroundColor="#08ffffff" Margin="20" CornerRadius="24">
+                <StackLayout>
+                    <Frame BackgroundColor="White"                   
                        CornerRadius="16"
-                       Margin="20,5,20,10"
+                       Margin="15,7"
                        HeightRequest="25">
-                    <local:CustomEntry x:Name="MasterPasswordEntry" Placeholder="Master Password" IsPassword="True" MaxLength="100" TextChanged="MasterPasswordEntry_TextChanged"/>
-                </Frame>
-            </StackLayout>
-            <StackLayout>
-                <Label Text="Service" 
+                        <local:CustomEntry Margin="-4"
+                                           FontSize="20"
+                                           x:Name="MasterPasswordEntry"
+                                           Placeholder="Master Password"
+                                           IsPassword="True" 
+                                           MaxLength="100" 
+                                           TextChanged="MasterPasswordEntry_TextChanged"/>
+                    </Frame>
+                    <Frame BackgroundColor="White"                  
+                           CornerRadius="16"
+                           Margin="15,7"
+                           HeightRequest="25">
+                        <local:CustomEntry x:Name="ServiceEntry"
+                                           Margin="-4"
+                                           FontSize="20"
+                                           Placeholder="Service"
+                                           MaxLength="100" 
+                                           TextChanged="ServiceEntry_TextChanged"/>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+
+            <Button x:Name="SecretPasswordButton"
+                    Text="✓"
+                    TextColor="White"
+                    FontSize="34"
+                    BackgroundColor="#08ffffff"
+                    BorderColor="White"
+                    BorderWidth="2"
+                    CornerRadius="84"
+                    HeightRequest="175"
+                    WidthRequest="175"
+                    Margin="0,25"
+                    HorizontalOptions="Center"
+                    Clicked="SecretPasswordButton_Clicked">
+            </Button>
+            <!--<Frame BackgroundColor="#10ffffff" Margin="20" CornerRadius="24">
+                <StackLayout>
+                    <Label Text="Secret Password" 
                    HorizontalOptions="Center"
                    VerticalOptions="CenterAndExpand" 
                    TextColor="White"
                    FontSize="28"/>
-                <Frame BackgroundColor="White"
-                       CornerRadius="16"
-                       Margin="20,5,20,40"
-                       HeightRequest="25">
-                    <local:CustomEntry x:Name="ServiceEntry" Placeholder="Service" MaxLength="100" TextChanged="ServiceEntry_TextChanged"/>
-                </Frame>
-            </StackLayout>
-            <StackLayout>
-                <Label Text="Secret Password" 
-                   HorizontalOptions="Center"
-                   VerticalOptions="CenterAndExpand" 
-                   TextColor="White"
-                   FontSize="28"/>
-                <Button x:Name="SecretPasswordButton"
+                    <Button x:Name="SecretPasswordButton"
                        BackgroundColor="White"
                        CornerRadius="24"
                        Margin="30,5"
-                       HeightRequest="55"
+                       HeightRequest="55"                            
                        Clicked="SecretPasswordButton_Clicked">
-                </Button>
-            </StackLayout>
+                    </Button>
+                </StackLayout>
+            </Frame>-->
+        </StackLayout>
+        <StackLayout VerticalOptions="End">
+            <Frame BackgroundColor="#18ffffff" VerticalOptions="End">
+                <Label 
+                    Text="Password was copied to clipboard"
+                    TextColor="White"
+                    FontSize="16"
+                    HorizontalTextAlignment="Center"/>
+            </Frame>
         </StackLayout>
     </Grid>
 </ContentPage>

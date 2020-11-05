@@ -10,9 +10,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\FranxurterTotallyFat.ttf" />
+    <None Remove="Resources\FranxurterTotallyMedium.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\FranxurterTotallyFat.ttf" />
+    <EmbeddedResource Include="Resources\FranxurterTotallyMedium.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Syncfusion.Xamarin.Core" Version="18.3.0.44" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1560" />
+    <PackageReference Include="Xamarin.Forms" Version="4.7.0.1260" />
     <PackageReference Include="Xamarin.Plugins.Clipboard" Version="2.2.1" />
   </ItemGroup>
 </Project>

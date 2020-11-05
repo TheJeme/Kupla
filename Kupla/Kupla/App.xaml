@@ -4,6 +4,13 @@
              xmlns:gradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
              x:Class="Kupla.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="FranxurterTotallyFat">
+                <On Platform="Android" Value="FranxurterTotallyFat.ttf#FranxurterTotallyFat" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="FranxurterTotallyMedium">
+                <On Platform="Android" Value="FranxurterTotallyMedium.ttf#FranxurterTotallyMedium" />
+            </OnPlatform>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
