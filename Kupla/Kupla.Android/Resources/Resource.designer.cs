@@ -7015,44 +7015,44 @@ namespace Kupla.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0e005e
-			public const int abc_background_cache_hint_selector_material_dark = 2131624030;
-			
 			// aapt resource value: 0x7f0e005f
-			public const int abc_background_cache_hint_selector_material_light = 2131624031;
+			public const int abc_background_cache_hint_selector_material_dark = 2131624031;
 			
 			// aapt resource value: 0x7f0e0060
-			public const int abc_btn_colored_borderless_text_material = 2131624032;
+			public const int abc_background_cache_hint_selector_material_light = 2131624032;
 			
 			// aapt resource value: 0x7f0e0061
-			public const int abc_btn_colored_text_material = 2131624033;
+			public const int abc_btn_colored_borderless_text_material = 2131624033;
 			
 			// aapt resource value: 0x7f0e0062
-			public const int abc_color_highlight_material = 2131624034;
+			public const int abc_btn_colored_text_material = 2131624034;
 			
 			// aapt resource value: 0x7f0e0063
-			public const int abc_hint_foreground_material_dark = 2131624035;
+			public const int abc_color_highlight_material = 2131624035;
 			
 			// aapt resource value: 0x7f0e0064
-			public const int abc_hint_foreground_material_light = 2131624036;
+			public const int abc_hint_foreground_material_dark = 2131624036;
+			
+			// aapt resource value: 0x7f0e0065
+			public const int abc_hint_foreground_material_light = 2131624037;
 			
 			// aapt resource value: 0x7f0e0004
 			public const int abc_input_method_navigation_guard = 2131623940;
 			
-			// aapt resource value: 0x7f0e0065
-			public const int abc_primary_text_disable_only_material_dark = 2131624037;
-			
 			// aapt resource value: 0x7f0e0066
-			public const int abc_primary_text_disable_only_material_light = 2131624038;
+			public const int abc_primary_text_disable_only_material_dark = 2131624038;
 			
 			// aapt resource value: 0x7f0e0067
-			public const int abc_primary_text_material_dark = 2131624039;
+			public const int abc_primary_text_disable_only_material_light = 2131624039;
 			
 			// aapt resource value: 0x7f0e0068
-			public const int abc_primary_text_material_light = 2131624040;
+			public const int abc_primary_text_material_dark = 2131624040;
 			
 			// aapt resource value: 0x7f0e0069
-			public const int abc_search_url_text = 2131624041;
+			public const int abc_primary_text_material_light = 2131624041;
+			
+			// aapt resource value: 0x7f0e006a
+			public const int abc_search_url_text = 2131624042;
 			
 			// aapt resource value: 0x7f0e0005
 			public const int abc_search_url_text_normal = 2131623941;
@@ -7063,29 +7063,29 @@ namespace Kupla.Droid
 			// aapt resource value: 0x7f0e0007
 			public const int abc_search_url_text_selected = 2131623943;
 			
-			// aapt resource value: 0x7f0e006a
-			public const int abc_secondary_text_material_dark = 2131624042;
-			
 			// aapt resource value: 0x7f0e006b
-			public const int abc_secondary_text_material_light = 2131624043;
+			public const int abc_secondary_text_material_dark = 2131624043;
 			
 			// aapt resource value: 0x7f0e006c
-			public const int abc_tint_btn_checkable = 2131624044;
+			public const int abc_secondary_text_material_light = 2131624044;
 			
 			// aapt resource value: 0x7f0e006d
-			public const int abc_tint_default = 2131624045;
+			public const int abc_tint_btn_checkable = 2131624045;
 			
 			// aapt resource value: 0x7f0e006e
-			public const int abc_tint_edittext = 2131624046;
+			public const int abc_tint_default = 2131624046;
 			
 			// aapt resource value: 0x7f0e006f
-			public const int abc_tint_seek_thumb = 2131624047;
+			public const int abc_tint_edittext = 2131624047;
 			
 			// aapt resource value: 0x7f0e0070
-			public const int abc_tint_spinner = 2131624048;
+			public const int abc_tint_seek_thumb = 2131624048;
 			
 			// aapt resource value: 0x7f0e0071
-			public const int abc_tint_switch_track = 2131624049;
+			public const int abc_tint_spinner = 2131624049;
+			
+			// aapt resource value: 0x7f0e0072
+			public const int abc_tint_switch_track = 2131624050;
 			
 			// aapt resource value: 0x7f0e0008
 			public const int accent_material_dark = 2131623944;
@@ -7171,8 +7171,8 @@ namespace Kupla.Droid
 			// aapt resource value: 0x7f0e0043
 			public const int design_default_color_primary_dark = 2131624003;
 			
-			// aapt resource value: 0x7f0e0072
-			public const int design_error = 2131624050;
+			// aapt resource value: 0x7f0e0073
+			public const int design_error = 2131624051;
 			
 			// aapt resource value: 0x7f0e0044
 			public const int design_fab_shadow_end_color = 2131624004;
@@ -7198,8 +7198,8 @@ namespace Kupla.Droid
 			// aapt resource value: 0x7f0e004b
 			public const int design_snackbar_background_color = 2131624011;
 			
-			// aapt resource value: 0x7f0e0073
-			public const int design_tint_password_toggle = 2131624051;
+			// aapt resource value: 0x7f0e0074
+			public const int design_tint_password_toggle = 2131624052;
 			
 			// aapt resource value: 0x7f0e0016
 			public const int dim_foreground_disabled_material_dark = 2131623958;
@@ -7270,71 +7270,71 @@ namespace Kupla.Droid
 			// aapt resource value: 0x7f0e002b
 			public const int material_grey_900 = 2131623979;
 			
-			// aapt resource value: 0x7f0e0074
-			public const int mtrl_bottom_nav_colored_item_tint = 2131624052;
-			
 			// aapt resource value: 0x7f0e0075
-			public const int mtrl_bottom_nav_item_tint = 2131624053;
+			public const int mtrl_bottom_nav_colored_item_tint = 2131624053;
+			
+			// aapt resource value: 0x7f0e0076
+			public const int mtrl_bottom_nav_item_tint = 2131624054;
 			
 			// aapt resource value: 0x7f0e004c
 			public const int mtrl_btn_bg_color_disabled = 2131624012;
 			
-			// aapt resource value: 0x7f0e0076
-			public const int mtrl_btn_bg_color_selector = 2131624054;
-			
 			// aapt resource value: 0x7f0e0077
-			public const int mtrl_btn_ripple_color = 2131624055;
+			public const int mtrl_btn_bg_color_selector = 2131624055;
 			
 			// aapt resource value: 0x7f0e0078
-			public const int mtrl_btn_stroke_color_selector = 2131624056;
+			public const int mtrl_btn_ripple_color = 2131624056;
 			
 			// aapt resource value: 0x7f0e0079
-			public const int mtrl_btn_text_btn_ripple_color = 2131624057;
+			public const int mtrl_btn_stroke_color_selector = 2131624057;
+			
+			// aapt resource value: 0x7f0e007a
+			public const int mtrl_btn_text_btn_ripple_color = 2131624058;
 			
 			// aapt resource value: 0x7f0e004d
 			public const int mtrl_btn_text_color_disabled = 2131624013;
 			
-			// aapt resource value: 0x7f0e007a
-			public const int mtrl_btn_text_color_selector = 2131624058;
+			// aapt resource value: 0x7f0e007b
+			public const int mtrl_btn_text_color_selector = 2131624059;
 			
 			// aapt resource value: 0x7f0e004e
 			public const int mtrl_btn_transparent_bg_color = 2131624014;
 			
-			// aapt resource value: 0x7f0e007b
-			public const int mtrl_chip_background_color = 2131624059;
-			
 			// aapt resource value: 0x7f0e007c
-			public const int mtrl_chip_close_icon_tint = 2131624060;
+			public const int mtrl_chip_background_color = 2131624060;
 			
 			// aapt resource value: 0x7f0e007d
-			public const int mtrl_chip_ripple_color = 2131624061;
+			public const int mtrl_chip_close_icon_tint = 2131624061;
 			
 			// aapt resource value: 0x7f0e007e
-			public const int mtrl_chip_text_color = 2131624062;
+			public const int mtrl_chip_ripple_color = 2131624062;
 			
 			// aapt resource value: 0x7f0e007f
-			public const int mtrl_fab_ripple_color = 2131624063;
+			public const int mtrl_chip_text_color = 2131624063;
+			
+			// aapt resource value: 0x7f0e0080
+			public const int mtrl_fab_ripple_color = 2131624064;
 			
 			// aapt resource value: 0x7f0e004f
 			public const int mtrl_scrim_color = 2131624015;
 			
-			// aapt resource value: 0x7f0e0080
-			public const int mtrl_tabs_colored_ripple_color = 2131624064;
-			
 			// aapt resource value: 0x7f0e0081
-			public const int mtrl_tabs_icon_color_selector = 2131624065;
+			public const int mtrl_tabs_colored_ripple_color = 2131624065;
 			
 			// aapt resource value: 0x7f0e0082
-			public const int mtrl_tabs_icon_color_selector_colored = 2131624066;
+			public const int mtrl_tabs_icon_color_selector = 2131624066;
 			
 			// aapt resource value: 0x7f0e0083
-			public const int mtrl_tabs_legacy_text_color_selector = 2131624067;
+			public const int mtrl_tabs_icon_color_selector_colored = 2131624067;
 			
 			// aapt resource value: 0x7f0e0084
-			public const int mtrl_tabs_ripple_color = 2131624068;
+			public const int mtrl_tabs_legacy_text_color_selector = 2131624068;
 			
 			// aapt resource value: 0x7f0e0085
-			public const int mtrl_text_btn_text_color_selector = 2131624069;
+			public const int mtrl_tabs_ripple_color = 2131624069;
+			
+			// aapt resource value: 0x7f0e0086
+			public const int mtrl_text_btn_text_color_selector = 2131624070;
 			
 			// aapt resource value: 0x7f0e0050
 			public const int mtrl_textinput_default_box_stroke_color = 2131624016;
@@ -7399,17 +7399,20 @@ namespace Kupla.Droid
 			// aapt resource value: 0x7f0e0039
 			public const int secondary_text_disabled_material_light = 2131623993;
 			
+			// aapt resource value: 0x7f0e005e
+			public const int splash_screen = 2131624030;
+			
 			// aapt resource value: 0x7f0e003a
 			public const int switch_thumb_disabled_material_dark = 2131623994;
 			
 			// aapt resource value: 0x7f0e003b
 			public const int switch_thumb_disabled_material_light = 2131623995;
 			
-			// aapt resource value: 0x7f0e0086
-			public const int switch_thumb_material_dark = 2131624070;
-			
 			// aapt resource value: 0x7f0e0087
-			public const int switch_thumb_material_light = 2131624071;
+			public const int switch_thumb_material_dark = 2131624071;
+			
+			// aapt resource value: 0x7f0e0088
+			public const int switch_thumb_material_light = 2131624072;
 			
 			// aapt resource value: 0x7f0e003c
 			public const int switch_thumb_normal_material_dark = 2131623996;
@@ -8475,26 +8478,26 @@ namespace Kupla.Droid
 			// aapt resource value: 0x7f020072
 			public const int avd_hide_password = 2130837618;
 			
-			// aapt resource value: 0x7f020157
-			public const int avd_hide_password_1 = 2130837847;
-			
-			// aapt resource value: 0x7f020158
-			public const int avd_hide_password_2 = 2130837848;
-			
 			// aapt resource value: 0x7f020159
-			public const int avd_hide_password_3 = 2130837849;
+			public const int avd_hide_password_1 = 2130837849;
+			
+			// aapt resource value: 0x7f02015a
+			public const int avd_hide_password_2 = 2130837850;
+			
+			// aapt resource value: 0x7f02015b
+			public const int avd_hide_password_3 = 2130837851;
 			
 			// aapt resource value: 0x7f020073
 			public const int avd_show_password = 2130837619;
 			
-			// aapt resource value: 0x7f02015a
-			public const int avd_show_password_1 = 2130837850;
-			
-			// aapt resource value: 0x7f02015b
-			public const int avd_show_password_2 = 2130837851;
-			
 			// aapt resource value: 0x7f02015c
-			public const int avd_show_password_3 = 2130837852;
+			public const int avd_show_password_1 = 2130837852;
+			
+			// aapt resource value: 0x7f02015d
+			public const int avd_show_password_2 = 2130837853;
+			
+			// aapt resource value: 0x7f02015e
+			public const int avd_show_password_3 = 2130837854;
 			
 			// aapt resource value: 0x7f020074
 			public const int clear_button_icon = 2130837620;
@@ -9159,11 +9162,11 @@ namespace Kupla.Droid
 			// aapt resource value: 0x7f020150
 			public const int notification_icon_background = 2130837840;
 			
-			// aapt resource value: 0x7f020155
-			public const int notification_template_icon_bg = 2130837845;
+			// aapt resource value: 0x7f020157
+			public const int notification_template_icon_bg = 2130837847;
 			
-			// aapt resource value: 0x7f020156
-			public const int notification_template_icon_low_bg = 2130837846;
+			// aapt resource value: 0x7f020158
+			public const int notification_template_icon_low_bg = 2130837848;
 			
 			// aapt resource value: 0x7f020151
 			public const int notification_tile_bg = 2130837841;
@@ -9172,10 +9175,16 @@ namespace Kupla.Droid
 			public const int notify_panel_notification_icon_bg = 2130837842;
 			
 			// aapt resource value: 0x7f020153
-			public const int tooltip_frame_dark = 2130837843;
+			public const int splash = 2130837843;
 			
 			// aapt resource value: 0x7f020154
-			public const int tooltip_frame_light = 2130837844;
+			public const int splash_screen = 2130837844;
+			
+			// aapt resource value: 0x7f020155
+			public const int tooltip_frame_dark = 2130837845;
+			
+			// aapt resource value: 0x7f020156
+			public const int tooltip_frame_light = 2130837846;
 			
 			static Drawable()
 			{
@@ -11202,6 +11211,9 @@ namespace Kupla.Droid
 			
 			// aapt resource value: 0x7f090003
 			public const int MainTheme_Base = 2131296259;
+			
+			// aapt resource value: 0x7f090204
+			public const int MyTheme_Splash = 2131296772;
 			
 			// aapt resource value: 0x7f090083
 			public const int Platform_AppCompat = 2131296387;

@@ -22,6 +22,7 @@ namespace Kupla
             {
                 String secretPassword = ComputeMD5Hash(MasterPasswordEntry.Text + ServiceEntry.Text.ToUpper() + "kupla");
                 CrossClipboard.Current.SetText(secretPassword);
+                CopyMessage.IsVisible = true;
             }
 
         }

@@ -9,8 +9,8 @@
             <gradient:SfGradientView.BackgroundBrush>
                 <gradient:SfLinearGradientBrush>
                     <gradient:SfLinearGradientBrush.GradientStops>
-                        <gradient:SfGradientStop Color="#2d265b" Offset="0.0" />
-                        <gradient:SfGradientStop Color="#b8495c" Offset="1.0" />
+                        <gradient:SfGradientStop Color="#699acc" Offset="0.0" />
+                        <gradient:SfGradientStop Color="#c69abb" Offset="1.0" />
                     </gradient:SfLinearGradientBrush.GradientStops>
                 </gradient:SfLinearGradientBrush>
             </gradient:SfGradientView.BackgroundBrush>
@@ -28,7 +28,7 @@
                    WidthRequest="75"  
                    Color="White"
                    Margin="0,0,0,25"/>
-            <Frame BackgroundColor="#08ffffff" Margin="20" CornerRadius="24">
+            <Frame BackgroundColor="#10ffffff" Margin="20" CornerRadius="24">
                 <StackLayout>
                     <Frame BackgroundColor="White"                   
                        CornerRadius="16"
@@ -64,9 +64,9 @@
                     BorderColor="White"
                     BorderWidth="2"
                     CornerRadius="84"
-                    HeightRequest="175"
-                    WidthRequest="175"
-                    Margin="0,25"
+                    HeightRequest="150"
+                    WidthRequest="150"
+                    Margin="0,35"
                     HorizontalOptions="Center"
                     Clicked="SecretPasswordButton_Clicked">
             </Button>
@@ -87,14 +87,12 @@
                 </StackLayout>
             </Frame>-->
         </StackLayout>
-        <StackLayout VerticalOptions="End">
-            <Frame BackgroundColor="#18ffffff" VerticalOptions="End">
-                <Label 
-                    Text="Password was copied to clipboard"
-                    TextColor="White"
-                    FontSize="16"
-                    HorizontalTextAlignment="Center"/>
-            </Frame>
-        </StackLayout>
+        <Frame x:Name="CopyMessage" IsVisible="False" BackgroundColor="#18ffffff" VerticalOptions="End">
+            <Label 
+                Text="Password was copied to clipboard!"
+                TextColor="White"
+                FontSize="16"
+                HorizontalTextAlignment="Center"/>
+        </Frame>
     </Grid>
 </ContentPage>
