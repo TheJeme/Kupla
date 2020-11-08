@@ -39,8 +39,7 @@
                                            x:Name="MasterPasswordEntry"
                                            Placeholder="Master Password"
                                            IsPassword="True" 
-                                           MaxLength="100" 
-                                           TextChanged="MasterPasswordEntry_TextChanged"/>
+                                           MaxLength="100"/>
                     </Frame>
                     <Frame BackgroundColor="White"                  
                            CornerRadius="16"
@@ -50,8 +49,7 @@
                                            Margin="-4"
                                            FontSize="20"
                                            Placeholder="Service"
-                                           MaxLength="100" 
-                                           TextChanged="ServiceEntry_TextChanged"/>
+                                           MaxLength="100"/>
                     </Frame>
                 </StackLayout>
             </Frame>
@@ -70,22 +68,6 @@
                     HorizontalOptions="Center"
                     Clicked="SecretPasswordButton_Clicked">
             </Button>
-            <!--<Frame BackgroundColor="#10ffffff" Margin="20" CornerRadius="24">
-                <StackLayout>
-                    <Label Text="Secret Password" 
-                   HorizontalOptions="Center"
-                   VerticalOptions="CenterAndExpand" 
-                   TextColor="White"
-                   FontSize="28"/>
-                    <Button x:Name="SecretPasswordButton"
-                       BackgroundColor="White"
-                       CornerRadius="24"
-                       Margin="30,5"
-                       HeightRequest="55"                            
-                       Clicked="SecretPasswordButton_Clicked">
-                    </Button>
-                </StackLayout>
-            </Frame>-->
         </StackLayout>
         <Frame x:Name="CopyMessage" IsVisible="False" BackgroundColor="#18ffffff" VerticalOptions="End">
             <Label 
