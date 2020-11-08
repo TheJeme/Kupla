@@ -27,28 +27,6 @@ namespace Kupla
 
         }
 
-        private void MasterPasswordEntry_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            //ApplyHash();
-        }
-
-        private void ServiceEntry_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            //ApplyHash();
-        }
-
-        private void ApplyHash()
-        {
-            //if (!string.IsNullOrWhiteSpace(MasterPasswordEntry.Text) && !string.IsNullOrWhiteSpace(ServiceEntry.Text))
-            //{
-            //    SecretPasswordButton.Text = ComputeMD5Hash(MasterPasswordEntry.Text + ServiceEntry.Text.ToUpper() + "kupla");
-            //}
-            //else
-            //{
-            //    SecretPasswordButton.Text = "";
-            //}
-        }
-
         static string ComputeMD5Hash(string rawdata)
         {
             using (MD5 md5Hash = MD5.Create())
@@ -59,7 +37,7 @@ namespace Kupla
                 {
                     builder.Append(bytes[i].ToString("x2"));
                 }
-                for (int i = Convert.ToInt32(bytes.Length / 2); i < bytes.Length - 5; i++)
+                for (int i = Convert.ToInt32(bytes.Length / 2); i < bytes.Length; i++)
                 {
                     builder.Append(bytes[i].ToString("x2").ToUpper());
                 }
